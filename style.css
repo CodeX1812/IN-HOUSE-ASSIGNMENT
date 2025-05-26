@@ -1,0 +1,200 @@
+* {
+	margin: 0;
+	padding: 0;
+	font-family: ui-sans-serif, system-ui, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
+}
+
+.navbar {
+	display: flex;
+	align-items: center;
+	padding: 2.425rem;
+	
+	top: 0;
+	background-color: white;
+	z-index: 1000;
+	box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+}
+
+.brand {
+	display: flex;
+	align-items: center;
+}
+
+.logo {
+	margin-right: 0.625rem;
+}
+
+.nav-links {
+	margin-left: auto;
+	display: flex;
+	gap: 1.875rem;
+	margin-right: 1.875rem;
+}
+
+.nav-links a {
+	text-decoration: none;
+	color: rgb(94, 90, 90);
+	font-size: 1.25rem;
+	font-weight: 500;
+}
+
+.nav-links a:hover {
+	text-decoration: underline;
+	text-underline-offset: 4px;
+	text-decoration-thickness: 2px;
+	color: rgb(94, 90, 90);
+}
+
+
+
+.main-section {
+	display: flex;
+	justify-content: space-between;
+	align-items: flex-start;
+	gap: 1rem;
+	padding: 2rem;
+	flex-wrap: wrap;
+}
+
+.image {
+	width: 100%;
+	max-width: 100%;
+	height: auto;
+	object-fit: cover;
+}
+
+.left-content {
+	width: 65%;
+}
+
+.heading-para {
+	display: flex;
+	flex-direction: row;
+	align-items: flex-start;
+	margin-top: 1rem;
+}
+
+.heading-para h1 {
+	font-size: 3rem;
+	color: #172554;
+	line-height: 1;
+	font-weight: 700;
+	float: left;
+}
+
+.heading-para p {
+	font-size: 1.125rem;
+	line-height: 1.75rem;
+	color: #334155;
+	margin-top: 1rem;
+	margin-left: 8rem;
+}
+
+.read-more {
+    float: left;
+    margin-top: -6.5rem;
+;
+    background-color: rgb(239, 68, 68);
+    padding: 0.75rem 2.5rem;
+    font-weight: 700;
+    font-size: 1.1rem;
+    color: white;
+    text-decoration: none;
+    text-transform: uppercase;
+    margin-left: 20rem;
+}
+
+.read-more:hover {
+	color: red;
+	background-color: rgb(9, 0, 0);
+	box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+}
+
+.text-box {
+	background-color: #172554;
+	width: 30%;
+	color: white;
+	padding: 20px;
+	height: 250%;
+}
+
+.text-box h1 {
+	color: orange;
+	margin-bottom: 2.25rem;
+	font-weight: 700;
+	font-size: 2rem;
+}
+
+.text-box h3 {
+	color: rgb(203 213 225);
+	font-weight: 700;
+	margin-bottom: 15px;
+	font-size: 1.3rem;
+	cursor: pointer;
+}
+
+.text-box h3:hover {
+	color: orange;
+}
+
+.text-box p {
+	color: rgb(107 114 128);
+	font-weight: 700;
+	font-size: 14px;
+	margin-bottom: 15px;
+}
+
+.text-box hr {
+	margin-bottom: 15px;
+}
+
+.grid-items {
+	display: grid;
+	grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+	gap: 1.5rem;
+	padding: 2rem;
+}
+
+.item {
+	display: flex;
+	gap: 1rem;
+	align-items: center;
+}
+
+.item img {
+	width: 8.5rem;
+	height: auto;
+	object-fit: cover;
+}
+
+.text-content {
+	display: flex;
+	flex-direction: column;
+}
+
+.number {
+	font-size: 2rem;
+	color: rgb(220 38 38);
+	margin-bottom: 0.5rem;
+	font-weight: bold;
+}
+
+.heading {
+	font-size: 1.25rem;
+	font-weight: 700;
+	margin-bottom: 0.5rem;
+}
+
+.heading a {
+	text-decoration: none;
+	color: #222;
+}
+
+.heading a:hover {
+	color: orange;
+}
+
+.description {
+	font-size: 1rem;
+	color: #555;
+}
